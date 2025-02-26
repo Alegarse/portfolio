@@ -1,0 +1,12 @@
+body {
+    background-color: var(--color-background);
+}
+
+.purple-text {
+    color: var(--color-purple);
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}

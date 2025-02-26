@@ -1,0 +1,9 @@
+:root {
+    /* Colour vars */
+    --color-background: #282C33;
+    --color-purple: #C778DD;
+
+    /* Fonts vars */
+    --font-text: DM Sans, sans-serif;
+    --font-title: Playfair Display, serif;
+}
