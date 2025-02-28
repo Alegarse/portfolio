@@ -1,0 +1,42 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 8px;
+    margin-block-end: 60px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    & .logo {
+        width: 26px;
+        aspect-ratio: 1;
+    }
+
+    & .header-author-name {
+        color: var(--color-font);
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+.header-menu-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+    & a {
+        display: inline-flex;
+        gap: 1px;
+        color: var(--color-font-gray);
+        font-weight: 400;
+    }
+
+    & a:first-child {
+        color:var(--color-font);
+        font-weight: 500;
+    }
+}

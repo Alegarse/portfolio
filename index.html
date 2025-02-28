@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>@leg@rse's Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -12,149 +15,153 @@
       <div class="header-menu container">
         <div class="header-logo">
           <img
-            src="./imgs/logo_ags.png"
+            src="./imgs/logo_ags.webp"
             alt="Logo diseñado del autor"
             class="logo"
           />
           <p class="header-author-name">Alejandro</p>
         </div>
-        <nav class="header-menu">
-          <ul class="header-menu-list">
-            <li>
-              <a href="#"><p class="purple-text">#</p>Home</a>
-            </li>
-            <li>
-              <a href="#"><p class="purple-text">#</p>works</a>
-            </li>
-            <li>
-              <a href="#"><p class="purple-text">#</p>about-me</a>
-            </li>
-            <li>
-              <a href="#"><p class="purple-text">#</p>contact</a>
-            </li>
-          </ul>
+        <nav class="header-menu-list">
+            <a href="#skills"><span class="purple-text">#</span>habilidades</a>
+            <a href="#about-me"><span class="purple-text">#</span>sobre mi</a>
+            <a href="#contact"><span class="purple-text">#</span>contacto</a>
         </nav>
     </div>
     </header>
     
     <main>
         <!-- Info about the author -->
-        <section class="info container">
+        <section class="info-box container">
           <div class="info-text">
-            <h1 class="info-title"></h1>
-            <p class="info-desc"></p>
+            <h1 class="info-title">Alejandro es <span class="purple-text">analista desarrollador back-end</span>
+               y <span class="purple-text">gestor de equipos</span></h1>
+            <p class="info-desc">Le fascina todo lo relacionado con el back, diseño de APis, BBDD, 
+              aunque también tiene conocimientos en front-end. <br>En constante construcción
+              creativa y técnica.
+            </p>
+            <a class="info-link" href="./docs/cv_ags.pdf" target="_blank"><img class="info_cv_icon" src="./imgs/pdf.svg" alt="Icono del PDF">Más info</a>
           </div>
           <div class="info-photo">
-            <img src="" alt="" class="photo-author">
-            <p class="info-photo-status"></p>
-          </div>
-        </section>
-
-        <!-- Info about the author's projects experience -->
-        <section class="projects container">
-          <h2 class="projects-title"></h2>
-          <p class="projects-desc"></p>
-          <div class="projects-cards">
-            <div class="project-card">
-              <img src="" alt="" class="project-card-img">
-              <p class="project-card-languages"></p>
-              <h3 class="project-card-title"></h3>
-              <p class="project-card-desc"></p>
-              <a href="" class="project-card-link"></a>
+            <div class="info-photo-square">
+              <img src="./imgs/author-foto.webp" alt="Fotografía del autor" class="photo-author">
             </div>
-            <div class="project-card">
-              <img src="" alt="" class="project-card-img">
-              <p class="project-card-languages"></p>
-              <h3 class="project-card-title"></h3>
-              <p class="project-card-desc"></p>
-              <a href="" class="project-card-link"></a>
-            </div>
-            <div class="project-card">
-              <img src="" alt="" class="project-card-img">
-              <p class="project-card-languages"></p>
-              <h3 class="project-card-title"></h3>
-              <p class="project-card-desc"></p>
-              <a href="" class="project-card-link"></a>
+            <div class="info-photo-text">
+              <div class="info-square"></div>
+              <p class="info-photo-status">Actualmente migrando a <span>full-stack</span></p>
             </div>
           </div>
         </section>
 
         <!-- Info about the author's skills -->
-        <section class="skills container">
-          <h2 class="skills-title"></h2>
-          <div class="skills-container">
-            <div class="skills-stetic"></div>
+        <section class="skills-box container" id="skills">
+          <div class="box-title">
+            <h2 class="skills-title"><span class="purple-text">#</span>habilidades</h2>
+            <a href="#"><img class="up_link" src="./imgs/up.webp" alt=""></a>
+          </div>
             <div class="skills-cards">
               <div class="skill-card">
-                <h3 class="skill-card-title"></h3>
-                <p class="skill-card-desc"></p>
+                <h3 class="skill-card-title">Lenguajes</h3>
+                <p class="skill-card-desc">Php Java JavaScript</p>
               </div>
               <div class="skill-card">
-                <h3 class="skill-card-title"></h3>
-                <p class="skill-card-desc"></p>
+                <h3 class="skill-card-title">Bases de datos</h3>
+                <p class="skill-card-desc">SQlite MySQL Firebase</p>
               </div>
               <div class="skill-card">
-                <h3 class="skill-card-title"></h3>
-                <p class="skill-card-desc"></p>
+                <h3 class="skill-card-title">Herramientas</h3>
+                <p class="skill-card-desc">VSCode Linux Git Jira Scrum</p>
               </div>
               <div class="skill-card">
-                <h3 class="skill-card-title"></h3>
-                <p class="skill-card-desc"></p>
-              </div>
-              <div class="skill-card">
-                <h3 class="skill-card-title"></h3>
-                <p class="skill-card-desc"></p>
+                <h3 class="skill-card-title">Otros</h3>
+                <p class="skill-card-desc">HTML CSS XML REST</p>
               </div>
             </div>
-          </div>
         </section>
 
         <!-- Info about the author's personal ambient -->
-        <section class="about-me container">
-          <h2 class="about-me-title"></h2>
+        <section class="about-me-box container" id="about-me">
+          <div class="box-title">
+            <h2 class="about-me-title"><span class="purple-text">#</span>sobre mi</h2>
+            <a href="#"><img class="up_link" src="./imgs/up.webp" alt=""></a>
+          </div>
           <div class="about-me-content">
-            <p class="about-me-desc"></p>
-            <img src="" alt="" class="about-me-img">
+            <div class="about-me-desc">
+              <p class="about-me-descp">Soy un desarrollador back-end en constante evolución, 
+                apasionado por la tecnología y la creación de soluciones digitales. Actualmente 
+                estoy formándome en diversas tecnologías como Python, JavaScript, React, Node.js, 
+                MongoDB, SQL y PHP, con el objetivo de construir aplicaciones web eficientes, 
+                seguras y escalables
+              </p>
+              <p class="about-me-descp">
+                Mi enfoque se centra en el aprendizaje continuo y la búsqueda de la excelencia, 
+                con especial interés en el desarrollo backend, la integración de servicios y la 
+                automatización de procesos. Además, estoy aprendiendo a desplegar proyectos en 
+                servidores propios con Ubuntu y gestionando dominios, lo que me permite ofrecer 
+                soluciones completas desde la programación hasta la infraestructura
+              </p>
+              <p class="about-me-descp">
+                Estoy abierto a nuevas oportunidades para colaborar en proyectos que impulsen 
+                la innovación y mejoren la experiencia digital de los usuarios
+              </p>
+            </div>
+            <img src="./imgs/about-me.webp" alt="" class="about-me-img">
           </div>
         </section>
 
         <!-- Info about the author's contact -->
-        <section class="contact container">
-          <h2 class="contact-title"></h2>
+        <section class="contact-box container" id="contact">
+          <div class="box-title">
+            <h2 class="contact-title"><span class="purple-text">#</span>contacto</h2>
+            <a href="#"><img class="up_link" src="./imgs/up.webp" alt=""></a>
+          </div>
           <div class="contact-info">
-            <h3 class="contact-info-title"></h3>
-            <div class="contact-info-data">
-              <img src="" alt="" class="contact-info-icon">
-              <a href="" class="contact-info-link"></a>
+            <div class="contact-info-descs">
+              <p class="contact-info-desc">
+                Estoy interesado en oportunidades laborales, colaboraciones y proyectos
+                que requieran de mis habilidades y conocimientos.
+              </p>
+              <p class="contact-info-desc">
+                Si deseas contactar conmigo,
+                no dudes en hacerlo a través de los siguientes medios
+              </p>
             </div>
-            <div class="contact-info-data">
-              <img src="" alt="" class="contact-info-icon">
-              <a href="" class="contact-info-link"></a>
+            <div class="contact-info-area">
+              <div class="contact-info-data">
+                <a href="mailto:agscm2@gmail.com" class="contact-info-link"  target="_blank">
+                  <img src="./imgs/Email.webp" alt="" class="contact-info-icon">
+                  E-mail
+                </a>
+              </div>
+              <div class="contact-info-data">
+                <a href="https://github.com/Alegarse" class="contact-info-link"  target="_blank">
+                  <img src="./imgs/Github.webp" alt="" class="contact-info-icon">
+                  Github
+                </a>
+              </div>
+              <div class="contact-info-data"> 
+                <a href="https://www.linkedin.com/in/alegarse/" class="contact-info-link"  target="_blank">
+                  <img src="./imgs/LinkedIn.webp" alt="" class="contact-info-icon">
+                  LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         </section>
     </main>
 
-    <footer class="container">
+    <footer class="footer container">
       <div class="footer-data-author">
         <div class="footer-logo">
           <img
-            src="./imgs/logo_ags.png"
+            src="./imgs/logo_ags.webp"
             alt="Logo diseñado del autor"
             class="logo"
           />
           <p class="footer-author-name">Alejandro</p>
+          <p class="footer-author-email">agscm2@gmail.com</p>
         </div>
       </div>
-      <div class="footer-media-author">
-        <h3 class="footer-media-title"></h3>
-        <div class="footer-media-links">
-          <a href="" class="media-link-icon"><img src="./imgs/Github.png" alt=""></a>
-          <a href="" class="media-link-icon"><img src="./imgs/Discord.png" alt=""></a>
-          <a href="" class="media-link-icon"><img src="./imgs/LinkedIn.png" alt=""></a>
-        </div>
-      </div>
-      <p class="footer-author-copyright"></p>
+      <p class="footer-author-copyright">© Copyright 2025. Realizado por @alegarse</p>
     </footer>
 
 </body>

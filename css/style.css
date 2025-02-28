@@ -9,16 +9,13 @@
   @import "./00-generic/layout.css";
   @import "./01-settings/vars.css";
   @import "./02-components/buttons.css";
-  @import "./04-elements/header.css";
-  @import "./04-elements/footer.css";
+  @import "./03-elements/header.css";
+  @import "./03-elements/footer.css";
  
  /**
   * WebPage Index Styles
   */
- @import "/css/elements/hero-banner.css";
- @import "/css/elements/our-menu.css";
- @import "/css/elements/about-us.css";
- @import "/css/elements/services.css";
- @import "/css/elements/food-delivery.css";
- @import "/css/elements/opinions.css";
- @import "/css/elements/blog.css";
+ @import "./03-elements/info-box.css";
+ @import "./03-elements/skills-box.css";
+ @import "./03-elements/about-me-box.css";
+ @import "./03-elements/contact-box.css";

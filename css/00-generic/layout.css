@@ -1,5 +1,12 @@
 body {
     background-color: var(--color-background);
+    font-family: var(--font-text);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 
 .purple-text {
@@ -7,6 +14,20 @@ body {
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1280px;
     margin: 0 auto;
+    position: relative;
+}
+
+.box-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.up_link {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
 }

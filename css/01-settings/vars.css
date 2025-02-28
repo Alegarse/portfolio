@@ -2,8 +2,9 @@
     /* Colour vars */
     --color-background: #282C33;
     --color-purple: #C778DD;
+    --color-font: #FFFFFF;
+    --color-font-gray: #ABB2BF;
 
-    /* Fonts vars */
-    --font-text: DM Sans, sans-serif;
-    --font-title: Playfair Display, serif;
+    /* Fonts vars */ 
+    --font-text: 'Fira Code', serif;
 }
