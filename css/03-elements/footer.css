@@ -3,17 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 5rem;
 }
 
 .footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 
     & .logo {
-        width: 26px;
+        width: 1.625rem;
         aspect-ratio: 1;
     }
 
@@ -30,7 +30,7 @@
 
 .footer-author-copyright {
     color: var(--color-font-gray);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding-top: 16px;
+    padding-top: 1rem;
 }

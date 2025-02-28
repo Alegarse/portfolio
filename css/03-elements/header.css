@@ -2,35 +2,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 8px;
-    margin-block-end: 60px;
+    padding-inline: 0.5rem;
+    margin-block-end: 3.75rem;
 }
 
 .header-logo {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 
     & .logo {
-        width: 26px;
+        width: 1.625rem;
         aspect-ratio: 1;
     }
 
     & .header-author-name {
         color: var(--color-font);
         font-weight: 700;
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
 
 .header-menu-list {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 2rem;
 
     & a {
         display: inline-flex;
-        gap: 1px;
+        gap: 0.0625rem;
         color: var(--color-font-gray);
         font-weight: 400;
     }

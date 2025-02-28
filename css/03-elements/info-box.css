@@ -4,27 +4,27 @@
     align-items: center;
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
-    padding-inline: 8px;
-    gap: 140px;
+    padding-inline: 0.5rem;
+    gap: 8.75rem;
 }
 
 .info-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .info-title {
     color: var(--color-font);
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .info-desc {
-    max-width: 570px;
+    max-width: 35.625rem;
     color: var(--color-font-gray);
     font-weight: 400;
     line-height: 156%;
@@ -33,12 +33,12 @@
 .info-link {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     color: var(--color-font);
-    margin-inline-start: 50px;
-    padding: 15px;
-    border: 1px solid var(--color-purple);
-    border-radius: 12px;
+    margin-inline-start: 3.125rem;
+    padding: 0.9375rem;
+    border: 0.0625rem solid var(--color-purple);
+    border-radius: 0.75rem;
 }
 
 .info-link:hover {
@@ -47,7 +47,7 @@
 }
 
 .info_cv_icon {
-    width: 24px;
+    width: 1.5rem;
 }
 
 .info-photo {
@@ -60,29 +60,29 @@
 .info-photo-square {
     display: flex;
     justify-content: center;
-    padding: 32px;
+    padding: 2rem;
 
     & .photo-author {
-        border: 2px dotted var(--color-purple);
+        border: 0.125rem dotted var(--color-purple);
         border-radius: 50%;
     }
 }
 
 .photo-author:hover {
-    border: 2px solid var(--color-font-gray);
+    border: 0.125rem solid var(--color-font-gray);
     background-color: var(--color-purple);
 }
 
 .info-photo-text {
     display: flex;
     align-items: center;
-    gap: 5px;
-    padding-block-end: 16px;
+    gap: 0.3125rem;
+    padding-block-end: 1rem;
 
     & .info-square {
-        width: 16px;
-        height: 16px;
-        padding: 2px;
+        width: 1rem;
+        height: 1rem;
+        padding: 0.125rem;
         flex-shrink: 0;
         background-color: var(--color-purple);
     }

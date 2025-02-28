@@ -6,7 +6,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .purple-text {
@@ -14,7 +14,7 @@ main {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 80rem;
     margin: 0 auto;
     position: relative;
 }
@@ -27,7 +27,7 @@ main {
 }
 .up_link {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     right: 0;
 }

@@ -1,15 +1,15 @@
 .about-me-box {
     display: flex;
     flex-direction: column;
-    max-width: 1247px;
-    gap: 12px;
+    max-width: 77.9375rem;
+    gap: 0.75rem;
 }
 
 .about-me-title  {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--color-font);
-    padding-top: 16px;
+    padding-top: 1rem;
 }
 
 .about-me-content {
@@ -18,12 +18,12 @@
     align-items: center;
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
-    padding-inline: 8px;
-    gap: 100px;
+    padding-inline: 0.5rem;
+    gap: 6.25rem;
 }
 
 .about-me-descp {
-    padding: 12px;
+    padding: 0.75rem;
     color: var(--color-font-gray);
     font-weight: 400;
     line-height: 165%;
