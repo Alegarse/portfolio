@@ -41,6 +41,11 @@
     border-radius: 12px;
 }
 
+.info-link:hover {
+    background-color: var(--color-font-gray);
+    color: var(--color-font);
+}
+
 .info_cv_icon {
     width: 24px;
 }
@@ -61,6 +66,11 @@
         border: 2px dotted var(--color-purple);
         border-radius: 50%;
     }
+}
+
+.photo-author:hover {
+    border: 2px solid var(--color-font-gray);
+    background-color: var(--color-purple);
 }
 
 .info-photo-text {

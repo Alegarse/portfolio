@@ -2,7 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Alejandro García" content="Desarrollador"></meta>
+    <meta name="keywords" content="HTML, CSS, WebPage, Portfolio, Alegarse"></meta>
+    <meta name="description" content="WebPage de aprendizaje de HTML y CSS"></meta>
+    <meta name="generator" content="Visual Studio Code"></meta> 
     <title>@leg@rse's Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,9 +26,9 @@
           <p class="header-author-name">Alejandro</p>
         </div>
         <nav class="header-menu-list">
-            <a href="#skills"><span class="purple-text">#</span>habilidades</a>
-            <a href="#about-me"><span class="purple-text">#</span>sobre mi</a>
-            <a href="#contact"><span class="purple-text">#</span>contacto</a>
+            <a href="#skills" title="Visualizar la sección de habilidades"><span class="purple-text">#</span>habilidades</a>
+            <a href="#about-me" title="Visualizar la sección sobre mí"><span class="purple-text">#</span>sobre mi</a>
+            <a href="#contact" title="Visualizar la sección para contactarme"><span class="purple-text">#</span>contacto</a>
         </nav>
     </div>
     </header>
@@ -39,7 +43,10 @@
               aunque también tiene conocimientos en front-end. <br>En constante construcción
               creativa y técnica.
             </p>
-            <a class="info-link" href="./docs/cv_ags.pdf" target="_blank"><img class="info_cv_icon" src="./imgs/pdf.svg" alt="Icono del PDF">Más info</a>
+            <a class="info-link" href="./docs/cv_ags.pdf" target="_blank" title="Visualizar el CV">
+              <img class="info_cv_icon" src="./imgs/pdf.svg" alt="Icono del PDF">
+              Más info
+            </a>
           </div>
           <div class="info-photo">
             <div class="info-photo-square">
@@ -56,24 +63,28 @@
         <section class="skills-box container" id="skills">
           <div class="box-title">
             <h2 class="skills-title"><span class="purple-text">#</span>habilidades</h2>
-            <a href="#"><img class="up_link" src="./imgs/up.webp" alt=""></a>
+            <a href="#" title="Volver al inicio de la página web"><img class="up_link" src="./imgs/up.webp" alt="Icono de flecha arriba"></a>
           </div>
             <div class="skills-cards">
               <div class="skill-card">
                 <h3 class="skill-card-title">Lenguajes</h3>
-                <p class="skill-card-desc">Php Java JavaScript</p>
+                <p class="skill-card-desc">Php Java JavaScript Kotlin</p>
+                <p class="skill-card-desc">Kotlin</p>
               </div>
               <div class="skill-card">
                 <h3 class="skill-card-title">Bases de datos</h3>
-                <p class="skill-card-desc">SQlite MySQL Firebase</p>
+                <p class="skill-card-desc">SqLite MySQL Firebase</p>
+                <p class="skill-card-desc">SqlServer</p>
               </div>
               <div class="skill-card">
                 <h3 class="skill-card-title">Herramientas</h3>
-                <p class="skill-card-desc">VSCode Linux Git Jira Scrum</p>
+                <p class="skill-card-desc">VSCode Linux Git Jira</p>
+                <p class="skill-card-desc">Scrum Android Studio</p>
               </div>
               <div class="skill-card">
                 <h3 class="skill-card-title">Otros</h3>
-                <p class="skill-card-desc">HTML CSS XML REST</p>
+                <p class="skill-card-desc">HTML CSS XML ApiREST</p>
+                <p class="skill-card-desc">PowerBI</p>
               </div>
             </div>
         </section>
@@ -82,7 +93,7 @@
         <section class="about-me-box container" id="about-me">
           <div class="box-title">
             <h2 class="about-me-title"><span class="purple-text">#</span>sobre mi</h2>
-            <a href="#"><img class="up_link" src="./imgs/up.webp" alt=""></a>
+            <a href="#" title="Volver al inicio de la página web"><img class="up_link" src="./imgs/up.webp" alt="Icono de flecha arriba"></a>
           </div>
           <div class="about-me-content">
             <div class="about-me-desc">
@@ -104,7 +115,7 @@
                 la innovación y mejoren la experiencia digital de los usuarios
               </p>
             </div>
-            <img src="./imgs/about-me.webp" alt="" class="about-me-img">
+            <img src="./imgs/about-me.webp" alt="Imagen que representa lo comentado en la descripción" class="about-me-img">
           </div>
         </section>
 
@@ -112,7 +123,7 @@
         <section class="contact-box container" id="contact">
           <div class="box-title">
             <h2 class="contact-title"><span class="purple-text">#</span>contacto</h2>
-            <a href="#"><img class="up_link" src="./imgs/up.webp" alt=""></a>
+            <a href="#" title="Volver al inicio de la página web"><img class="up_link" src="./imgs/up.webp" alt=""></a>
           </div>
           <div class="contact-info">
             <div class="contact-info-descs">
@@ -127,20 +138,23 @@
             </div>
             <div class="contact-info-area">
               <div class="contact-info-data">
-                <a href="mailto:agscm2@gmail.com" class="contact-info-link"  target="_blank">
-                  <img src="./imgs/Email.webp" alt="" class="contact-info-icon">
+                <a href="mailto:agscm2@gmail.com" class="contact-info-link"  
+                    target="_blank" title="Enviar un correo electrónico">
+                  <img src="./imgs/Email.webp" alt="Icono de email" class="contact-info-icon">
                   E-mail
                 </a>
               </div>
               <div class="contact-info-data">
-                <a href="https://github.com/Alegarse" class="contact-info-link"  target="_blank">
-                  <img src="./imgs/Github.webp" alt="" class="contact-info-icon">
+                <a href="https://github.com/Alegarse" class="contact-info-link"  
+                    target="_blank" title="Visualizar mi perfil de Github">
+                  <img src="./imgs/Github.webp" alt="Icono de Github" class="contact-info-icon">
                   Github
                 </a>
               </div>
               <div class="contact-info-data"> 
-                <a href="https://www.linkedin.com/in/alegarse/" class="contact-info-link"  target="_blank">
-                  <img src="./imgs/LinkedIn.webp" alt="" class="contact-info-icon">
+                <a href="https://www.linkedin.com/in/alegarse/" class="contact-info-link"  
+                    target="_blank" title="Visualizar mi perfil de LinkedIn">
+                  <img src="./imgs/LinkedIn.webp" alt="Icono de Linkedin" class="contact-info-icon">
                   LinkedIn
                 </a>
               </div>
@@ -158,10 +172,13 @@
             class="logo"
           />
           <p class="footer-author-name">Alejandro</p>
-          <p class="footer-author-email">agscm2@gmail.com</p>
+          <a href="mailto:agscm2@gmail.com" class="contact-info-link"  
+          target="_blank" title="Enviar un correo electrónico">
+            agscm2@gmail.com
+          </a>
         </div>
       </div>
-      <p class="footer-author-copyright">© Copyright 2025. Realizado por @alegarse</p>
+      <p class="footer-author-copyright" title="Todos los derechos reservados">© Copyright 2025. Realizado por @alegarse</p>
     </footer>
 
 </body>
