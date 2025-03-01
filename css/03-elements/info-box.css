@@ -34,11 +34,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--color-font);
     margin-inline-start: 3.125rem;
-    padding: 0.9375rem;
-    border: 0.0625rem solid var(--color-purple);
-    border-radius: 0.75rem;
 }
 
 .info-link:hover {
