@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.75rem;
+    width: 100%;
+    gap: 1.75rem;
 }
 
 .skills-title {
@@ -14,17 +15,14 @@
 
 .skills-cards {
     display: grid;
+    width: 100%;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1.5rem;
-    padding: 1.5rem;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .skill-card  {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0.5rem 0rem;
@@ -32,13 +30,10 @@
 }
 
 .skill-card-title {
-    display: flex;
     padding: 0rem 0.5rem;
-    align-items: flex-start;
     align-self: stretch;
     color: var(--color-font);
     font-weight: 600;
-    width: 17.5rem;
     border-bottom: 0.0625rem solid var(--color-purple);
     margin-bottom: 1.5rem;
 }
