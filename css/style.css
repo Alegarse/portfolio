@@ -17,5 +17,6 @@
   */
  @import "./03-elements/info-box.css";
  @import "./03-elements/skills-box.css";
+ @import "./03-elements/projects-box.css";
  @import "./03-elements/about-me-box.css";
  @import "./03-elements/contact-box.css";

@@ -4,7 +4,6 @@
     align-items: center;
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
-    padding-inline: 0.5rem;
     gap: 8.75rem;
 }
 
