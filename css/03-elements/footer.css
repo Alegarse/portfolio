@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 .footer-logo {
@@ -32,5 +32,5 @@
     color: var(--color-font-gray);
     font-size: 0.875rem;
     font-weight: 400;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
